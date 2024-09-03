@@ -80,3 +80,22 @@ header p {
     width: 40%;
     text-align: center;
 }
+
+.result-modal {
+    background: #025354;
+    color: white;
+}
+
+.result-modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+button {
+    background: #0a3030;
+    color: white;
+    border: 1px solid #0a3030;
+    border-radius: 5px;
+    padding: 0.2em 0.5em;
+    font-size: 1.3em;
+    cursor: pointer;
+}
